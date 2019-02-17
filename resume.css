@@ -50,6 +50,24 @@
     padding: 1rem;
     width: 100%;
 }
+.hyper_links {
+    /* background: blue; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    Padding: 1rem;
+}
+
+.button_style {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 16px;
+}
+.button_style:hover {
+    background: gold;
+}
 
 @media screen and (min-width: 768px) {
     .container {
@@ -58,18 +76,3 @@
         justify-content: space-between;
     }}
 
-    .hyper_links {
-        /* background: blue; */
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        Padding: 1rem;
-    }
-    
-    .button_style {
-        background: black;
-        color: white;
-        border-radius: 10px;
-        border: none;
-        padding: 8px 16px;
-    }
