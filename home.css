@@ -19,13 +19,39 @@ background-image: url("brick.jpg");
 background-size: cover;
 
 } */
-#selfie {
+.selfie {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-grow: 1;
     padding: 2rem;
 
 }
+.main {
+    padding: 2rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.first {
+   width: 75%;
+   background: blue;
+   padding: 1rem;
+}
+.second {
+    width: 75%;
+    background: blue;
+    padding: 1rem;
+}
+.third {
+    width: 75%;
+    background: blue;
+    padding: 1rem;
+} 
+
 
 @media screen and (min-width: 768px) {
     .container {
