@@ -5,10 +5,23 @@
     justify-content: space-around;
     Padding: 1rem;
 }
+
 .button_style {
     background: black;
     color: white;
     border-radius: 10px;
     border: none;
     padding: 8px 16px;
+}
+
+/* body {
+background-image: url("brick.jpg");
+background-size: cover;
+
+} */
+.selfie {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+
 }
