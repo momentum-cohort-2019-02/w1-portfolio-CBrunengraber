@@ -1,0 +1,51 @@
+.container {
+    /* background: yellow; */
+    padding: 1rem;
+}
+
+.resume_header {
+    /* background: greenyellow; */
+    padding: 1rem;
+}
+
+.employment_history {
+    /* background: #fd7bd2; */
+    padding: 1rem;
+}
+
+.thr {
+    /* background: #32fda6; */
+}
+
+.njp_manager {
+    /* background: #449bfc; */
+}
+
+.njp_asst_manager {
+    /* background: #fd935b; */
+}
+
+.dsg {
+    /* background: red; */
+}
+
+.title_closer {
+    /* background: grey; */
+}
+
+.wuhefcu {
+    /* background: beige; */
+}
+
+.net4music {
+    /* background: purple; */
+}
+
+.mortgage {
+    /* background: #78bd5f; */
+}
+
+.education {
+    /* background: #32fafe; */
+    padding: 1rem;
+}
