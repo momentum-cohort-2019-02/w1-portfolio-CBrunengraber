@@ -14,11 +14,16 @@
     padding: 8px 16px;
 }
 
-/* body {
-background-image: url("brick.jpg");
+body {
+background-image:     linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("brick.jpg");
 background-size: cover;
+padding: 2rem;
+font-family: Courier;
 
-} */
+}
 .selfie {
     display: flex;
     justify-content: space-around;
@@ -27,6 +32,7 @@ background-size: cover;
     padding: 2rem;
 
 }
+
 .main {
     padding: 2rem;
     border-radius: 25px;
@@ -34,23 +40,48 @@ background-size: cover;
     flex-direction: column;
     justify-content: space-around; 
     align-items: center;
+    color: white;
+    font-weight:bold;
 }
 
 .first {
    width: 75%;
-   background: blue;
    padding: 1rem;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
 }
 .second {
     width: 75%;
-    background: blue;
     padding: 1rem;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
 }
 .third {
     width: 75%;
-    background: blue;
     padding: 1rem;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
 } 
+.social-media {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    Padding: 1rem;
+    margin: 3rem;
+}
+.bottom_button {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 16px;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -58,4 +89,8 @@ background-size: cover;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-around; 
+        align-items: center;
+       
     }}
