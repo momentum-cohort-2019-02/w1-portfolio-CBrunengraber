@@ -17,8 +17,18 @@
         background: gold;
     }
 
-
-
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+}
+.subheader{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+}
 body {
 background-image:     linear-gradient(
     rgba(0, 0, 0, 0.5),
