@@ -81,11 +81,15 @@ font-family: Courier;
     margin: 3rem;
 }
 .bottom_button {
-    background: black;
+    background: #0E76A8;
     color: white;
     border-radius: 10px;
     border: none;
     padding: 8px 16px;
+    width: 80px;
+    height: 80px;
+    font-size : 11px;
+    font-weight: bold;
 }
 .bottom_button:hover {
     background: gold;
