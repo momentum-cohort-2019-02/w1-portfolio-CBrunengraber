@@ -1,10 +1,39 @@
+
+.title {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-grow: 1; */
+    padding: 2rem;
+    /* flex-direction: column; */
+    background: yellow;
+}
+
+.first_project {
+    background: pink;
+    padding: 1rem;
+}
+
+.store_interior {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: flex-end; */
+    padding: 2rem;
+    /* flex-direction: row; */
+    background: chartreuse;
+}
+
+.garden_links {
+    background: beige;
+}
 .hyper_links {
-    /* background: blue; */
+    background: blue;
     display: flex;
     width: 100%;
     justify-content: space-around;
     Padding: 1rem;
 }
+
 .button_style {
     background: black;
     color: white;
@@ -12,24 +41,20 @@
     border: none;
     padding: 8px 16px;
 }
+
 .button_style:hover {
     background: gold;
 }
-.title {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-grow: 1;
-    padding: 2rem;
-    flex-direction: column;
-}
+
 @media screen and (min-width: 768px) {
     .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         flex-direction: column;
-        justify-content: space-around; 
+        justify-content: space-around;
         align-items: center;
-       
-    }}
+        background: red;
+
+    }
+}
