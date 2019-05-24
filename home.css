@@ -98,13 +98,15 @@ font-family: Courier;
     border-radius: 10px;
     border: none;
     padding: 8px 16px;
-    width: 160px;
+    width: 80px;
     height: 80px;
-    font-size : 15px;
+    font-size : 55px;
     font-weight: bold;
+    border-bottom: 5px solid rgb(17, 36, 49);
+    border-right: 5px solid rgb(17, 36, 49) ;
 }
 .bottom_button:hover {
-    background: gold;
+    background: rgb(112, 182, 230);
 }
 
 
