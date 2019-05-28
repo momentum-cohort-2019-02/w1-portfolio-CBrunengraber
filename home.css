@@ -14,6 +14,7 @@
     padding: 8px 16px;
     border-bottom: 2px solid rgb(19, 40, 54);
     border-right: 2px solid rgb(19, 40, 54) ;
+    outline: 0;
     }
     .button_style:hover {
         background: rgb(76, 83, 87);
@@ -107,6 +108,7 @@ font-family: Courier;
     font-weight: bold;
     border-bottom: 5px solid rgb(17, 36, 49);
     border-right: 5px solid rgb(17, 36, 49) ;
+    outline: 0;
 }
 .bottom_button:hover {
     background: rgb(112, 182, 230);
